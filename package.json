@@ -33,5 +33,10 @@
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3"
   },
-  "keywords": []
+  "dependencies": {
+    "mysql" : "latest",
+    "underscore" : "latest",
+    "moment" : "latest"
+  },
+  "keywords": ["node", "mysql", "migration"]
 }
