@@ -26,7 +26,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "node node-mysql-migration-test"
+    "test": "node ./test/node-mysql-migration-test"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
