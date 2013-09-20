@@ -1,0 +1,15 @@
+var connection = require('../../config/connect_mysql.js');
+
+module.exports = {
+	{{class_name}}: {
+		up: function(done) {
+		// logic for transforming into the new state
+			done(null, null); // use this callback to send info to the caller
+		},
+
+		down: function(done) {
+		// logic for reverting the changes
+			done(null, null); // use this callback to send info to the caller
+		}
+	}	
+}

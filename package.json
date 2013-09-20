@@ -1,0 +1,37 @@
+{
+  "name": "node-mysql-migration",
+  "description": "Simple mysql migration module based on node-mysql",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kamrulislam/node-mysql-migration",
+  "author": {
+    "name": "Md Kamrul Islam",
+    "email": "kamruli@gmail.com",
+    "url": "www.mdkamrul.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamrulislam/node-mysql-migration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamrulislam/node-mysql-migration/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kamrulislam/node-mysql-migration/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/node-mysql-migration",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": []
+}
